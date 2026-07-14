@@ -2913,7 +2913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.292 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -3073,7 +3073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.292 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -3256,7 +3256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.902 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -3499,7 +3499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 104.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +4445,7 @@
 	)
 	(sheet
 		(at 77.47 147.32)
-		(size 21.59 11.43)
+		(size 21.59 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4471,7 +4471,7 @@
 			)
 		)
 		(property "Sheetfile" "pezio sence.kicad_sch"
-			(at 77.47 159.3346 0)
+			(at 77.47 178.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4479,6 +4479,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CNVST1" output
+			(at 99.06 149.86 0)
+			(uuid "ddb1c2e1-b09e-4388-9e9b-a5cae946abe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK1" input
+			(at 99.06 152.4 0)
+			(uuid "e7fa519c-a902-480f-8224-7b32bd69a538")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDI1" input
+			(at 99.06 154.94 0)
+			(uuid "69c9c97d-ea62-4cb2-80fe-a78d3d3e95ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDO1" output
+			(at 99.06 157.48 0)
+			(uuid "a52e7be5-13cd-46c7-94c5-543c7d839a4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
