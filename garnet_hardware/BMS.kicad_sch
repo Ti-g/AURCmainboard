@@ -2173,7 +2173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 44.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2495,7 +2495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Neosid_SMS-ME3010"
 			(at 111.76 36.83 0)
 			(hide yes)
 			(show_name no)
